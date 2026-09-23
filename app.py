@@ -10,7 +10,7 @@ import pandas as pd
 import streamlit as st
 
 
-st.set_page_config(page_title="Malla de validación Excel", page_icon="✅", layout="wide")
+st.set_page_config(page_title="Malla de validación", page_icon="✅", layout="wide")
 
 
 def norm(value: object) -> str:
