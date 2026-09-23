@@ -216,7 +216,7 @@ def check_value(value: object, rule: dict) -> list[str]:
 
 
 def main() -> None:
-    st.title("Malla de validación de Excel")
+    st.title("Malla de validación")
     st.write("Carga el libro con la información y las reglas. La app revisa la hoja elegida y genera un log descargable con las filas observadas.")
     data_file = st.file_uploader("Archivo Excel a auditar (XLSX)", type=["xlsx"])
     if not data_file:
